@@ -5,7 +5,11 @@ public class UserBean extends BaseIdBean {
     private String password;
     private Double balance;
 
-    public UserBean() {
+    public UserBean() {}
+
+    public UserBean(String userName, String password) {
+        this.userName = userName;
+        this.password = password;
     }
 
     public String getUserName() {
