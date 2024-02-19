@@ -65,3 +65,8 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Linkedin profiles of members:
+
+[Yusufbek Murodov](www.linkedin.com/in/yusufbek-murodov-b16103266)
+
