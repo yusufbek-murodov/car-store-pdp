@@ -1,6 +1,6 @@
 package bean;
 
-public class UserBean {
+public class UserBean extends BaseIdBean {
     private String userName;
     private String password;
     private Double balance;
