@@ -16,7 +16,8 @@ This is a simple car management system that allows users to register, login, add
 ## Technologies Used
 
 - Java
-
+- Java OOP
+- Java Collection
 
 ## Setup
 
@@ -66,7 +67,12 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Linkedin profiles of members:
+## Linkedin profiles of programmers:
 
-[Yusufbek Murodov](www.linkedin.com/in/yusufbek-murodov-b16103266)
+[Yusufbek Murodov](https://www.linkedin.com/in/yusufbek-murodov-b16103266)
+
+[Ilyosbek Mamashukurov](https://www.linkedin.com/in/ilyosbekmamashukurov)
+
+[Xusniddin Muxiddinov](https://www.linkedin.com/in/khusniddin-mukhiddinov)
+
 
