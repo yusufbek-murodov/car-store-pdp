@@ -2,11 +2,9 @@
 ## Car store
 ### Members: Yusufbek, Ilyoskhoja, Xusniddin
 
-## Architecture of Car Store project
-![CarProject drawio](https://github.com/yusufbek-murodov/car-store-pdp/assets/127578935/520991b6-3712-4a1e-97d0-a9b29a0f55d4)
-
-
 # Car Management System
+
+![CarProject drawio](https://github.com/yusufbek-murodov/car-store-pdp/assets/127578935/520991b6-3712-4a1e-97d0-a9b29a0f55d4)
 
 This is a simple car management system that allows users to register, login, add cars, buy/sell cars, and view their own cars.
 
