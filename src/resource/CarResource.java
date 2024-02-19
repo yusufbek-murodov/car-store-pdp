@@ -77,4 +77,19 @@ public class CarResource implements BaseCrudResource<CarBean> {
         CarBean car = DB.sellCar(sellId);
         return null;
     }
+
+    /**
+     * Retrieves available cars and returns an ApiResponse object.
+     * @return ApiResponse object indicating the result of the operation.
+     */
+    public static ApiResponse showAvailableCars() {
+        List<CarBean> availableCars = DB.showAllCars();
+
+        if (availableCars == null) {
+            return new ApiResponse(500, "Internal Server Error", null);
+        } else {
+            return new ApiResponse(200, "Success", availableCars);
+        }
+    }
+
 }
