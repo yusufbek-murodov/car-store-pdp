@@ -158,4 +158,25 @@ public class DB {
         }
         return null;
     }
+
+    /**
+     * Retrieves a list of available cars (not owned by any user).
+     *
+     * @return List of available CarBean objects, or null if no cars are available.
+     */
+    public static List<CarBean> showAllCars() {
+        if (CAR_LIST.isEmpty()) {
+            return null;
+        }
+
+        List<CarBean> availableCars = new ArrayList<>();
+        for (CarBean carBean : CAR_LIST) {
+            if (carBean.getUserId() == null) {
+                carBean.setInStore(true);
+                availableCars.add(carBean);
+            }
+        }
+        return availableCars;
+    }
+
 }
